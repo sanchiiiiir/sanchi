@@ -1,1 +1,1 @@
-// git config --global user.name
+console.log(zolboo suganii us)
