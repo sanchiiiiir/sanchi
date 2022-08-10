@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: 150px 150px 150px;
+    grid-template-areas:
+    "header header header header"
+    "main  main . sidebar"
+    "footer footer footer footer"
+    ;
+  }
+  .sanchir-1{
+    grid-area: header;
+    background-color: orange;
+  }
+  .sanchir-2{
+    grid-area: main;
+    background-color:blue;
+  }
+  .sanchir-3{
+    background-color:aliceblue;
+  }
+  .sanchir-4{
+    grid-area: sidebar;
+    background-color:brown;
+  }
+  .sanchir-5{
+    grid-area: footer;
+    background-color:darkgreen;
+  }
+</style>
+<body>
+   <div class="container">
+    <div class="sanchir-1"></div>
+    <div class="sanchir-2"></div>
+    <div class="sanchir-3"></div>
+    <div class="sanchir-4"></div>
+    <div class="sanchir-5"></div>
+   </div>
+</body>
+</html> 

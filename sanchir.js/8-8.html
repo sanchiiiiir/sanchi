@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .class{
+        background-color: #b72a67;
+    }
+    .class {
+        background-color: rgb(230, 0, 132);
+        display: flex;
+        flex-direction:column;
+        position: relative;
+    
+    }
+    .sad {
+        background-color: rgb(255, 0, 132);
+        height: 150vh;
+        width: 30vw;
+        display: flex;
+        flex-direction:column;
+    }
+    .sadOne{
+        background-color:#b72a67(230, 0, 132);
+        height: 80vh;
+        width: 20vh;
+        position:absolute;
+        top: 100px;
+        left: 120px;
+    }
+    .sadTwo{
+        color: white;
+        margin: 25px;
+    }
+    .sadThree{
+        color: white;
+        margin: 25px;
+    }
+    .sadFour{
+        color: white;
+        margin: 25px;
+    }
+    .sadFive {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        background-color: grey;
+        margin: 5px;
+        position: absolute;
+        top: 0;
+    }
+    .sadSix{
+        height: 5px;
+        width: 35px;
+        background-color: #fff;
+        margin: 10px auto;
+    }
+    .sadFive {
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        background-color: transparent;
+        margin: 10px;
+        box-shadow: 0px 5px 50px 5px gray
+    }
+    .sadFive:hover .one {
+        transform: translateY(15px) rotate(45deg);
+    }
+    .sadFive:hover .two {
+        width: 0;
+    }
+    .sadFive:hover .three {
+        transform: translateY(-15px) rotate(-45deg);
+    }
+    .sadFive:hover+ .sadOne {
+        display: block;
+    }
+    .button:hover + .menu-container .menu-item-1 {
+    animation: 1s ease-in-out item;
+  }
+  .button:hover + .menu-container .menu-item-2 {
+    animation: 2s ease-in-out item;
+  }
+  .button:hover + .menu-container .menu-item-3 {
+    animation: 3s ease-in-out item;
+  }
+ 
+    </style>
+</head>
+<body class="class">
+    <div class="sad"></div>
+      <div class="sadOne">
+        <div class="sadTwo">Namuun</div>
+        <div class="sadThree">Dulguun</div>
+        <div class="sadFour">Chuka</div>
+    </div>
+    <div class="sadFive">
+        <div class="sadSix one"></div>
+        <div class="sadSix two"></div>
+        <div class="sadSix three"></div>
+    </div>
+</div>
+      
+    
+</body>
+</html>

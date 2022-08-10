@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+
+.sanchir{
+animation: sancho 20s  ;
+}
+@keyframes sancho {
+to{
+   transform: rotate(4800deg);
+}
+
+}
+
+body {
+  margin: 10px;
+  background-color: rgb(247, 247, 247);
+}
+
+#cat-image {
+  width: 100%;
+  transition: transform 0.5s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  background-color: white;
+  padding: 10px;
+}
+.cat-1 {
+  overflow: hidden; 
+  height: 100%;
+}
+#cat-image:hover {
+  transform: scale(1.2);
+}
+
+#readmore {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  background-color: gray;
+  padding: 10px;
+  transition: transform 2s;
+}
+
+.container:hover + #readmore {
+  display: flex;
+}
+
+#btn-readmore {
+  width: 100px;
+  padding: 5px;
+  background-color:white;
+  text-decoration: none;
+  color: gray;
+  border-radius: 3px;
+  text-align: center;
+}
+    </style>
+    <div class="container">
+      <div class="cat-1">
+        <img class="sanchir" src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/cat-1.png" alt="cat" id="cat-image" />
+      </div>
+      <h2>
+        Cat 1
+      </h2>
+    </div>
+    <div id="readmore">
+      <a id="btn-readmore" href="#">Read more</a>
+    </div>
+  </body>
+</html>

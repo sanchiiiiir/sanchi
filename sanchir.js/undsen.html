@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .container {
+      display: flex;
+      text-align: center;
+      gap: 10px;
+      width: 830px;
+      height: 550px;
+      background-color:chocolate ;
+      padding: 20px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .boxOne {
+      width: 200px;
+      height: 300px;
+      background-color: white;
+    }
+    .boxTwo {
+      width: 200px;
+      height: 250px;
+      background-color: white;
+    }
+    .boxThree {
+      width: 200px;
+      height: 230px;
+      background-color: white;
+    }
+    .miniContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .btn {
+        border: 1px solid rgb(213, 213, 213);
+        background-color: white;
+        height: 35px;
+        width: 70px;
+    }
+    .SalePrice {
+        text-decoration: line-through;
+        color:dimgrey;
+        margin-left: 40px;
+    }
+    .daraalal {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .img {
+        height: 170px;
+    }
+    .noSalePrice {
+        color:brown;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="miniContainer">
+        <div class="boxOne">
+            <img class="img" src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/dog-5.png" alt="1">
+                <button class="btn">Bulldog</button>
+                <button class="btn">Boxer</button>
+                <p class="animalName">Dog 5</p>
+                <div class="daraalal">
+                    <p class="SalePrice">£77.00</p>
+                    <p class="noSalePrice">£70.00</p>
+                </div>
+        </div>
+        <div class="boxThree">
+            <img class="img" src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/cat-2.png" alt="2">
+            <p class="animalName">Cat 2</p>
+        </div>
+      </div>
+      <div class="miniContainer">
+        <div class="boxTwo">
+            <img src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/cat-3.png" alt="3" class="img">
+            <p class="animalName">Cat 3</p>
+            <p class="noSalePrice">£56.00 - £88.00</p>
+        </div>
+        <div class="boxOne">
+            <img src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/dog4.png" alt="4" class="img">
+            <button class="btn">Bulldog</button>
+            <button class="btn">Labrador</button>
+            <p class="animalName">Dog 3</p>
+            <p class="noSalePrice">£25.00 - £40.00</p>
+        </div>
+      </div>
+      <div class="miniContainer">
+        <div class="boxOne">
+            <img src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/dog-6.png" alt="5" class="img">
+            <button class="btn">Bulldog</button>
+            <button class="btn">Labrador</button>
+            <p class="animalName">Dog 4</p>
+            <p class="noSalePrice">£35.00 - £50.00</p>
+        </div>
+        <div class="boxTwo">
+            <img src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/dog6.png" alt="6" class="img">
+            <p class="animalName">Dog 2</p>
+            <p class="noSalePrice">£88.00</p>

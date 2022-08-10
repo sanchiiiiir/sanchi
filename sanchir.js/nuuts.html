@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            .box{
+                height:40px;
+                width: 40px;
+                background-color: white;
+                animation: animatedBox 1s linear infinite alternate;
+            }
+            .box1 {
+                animation-delay: 0.2s;
+            }
+            .box2 {
+                animation-delay: 0.3s ;
+            }
+            .box3 {
+                animation-delay: 0.4s ;
+            }
+            .box4 {
+                animation-delay: 0.1s ;
+            }
+            .box5 {
+                animation-delay: 0.2s ;
+            }
+            .box6 {
+                animation-delay: 0.3s ;
+            }
+            .box7 {
+                animation-delay: 0s ;
+            }
+            .box8 {
+                animation-delay: 0.1s ;
+            }
+            .box9 {
+                animation-delay: 0.2s ;
+            }
+
+            @keyframes animatedBox {
+                to{
+                    transform: scale(0)
+                }
+            }
+        </style>
+    </head>
+    <body
+      style="
+      background-color:aqua;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    "
+>
+<div>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+</div>
+<div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+</div>
+<div>
+    <div class="box box7"></div>
+    <div class="box box8"></div>
+    <div class="box box9"></div>
+</div>
+</body>
+</html>
